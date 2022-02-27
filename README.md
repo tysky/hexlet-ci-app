@@ -1,4 +1,4 @@
-![CI status](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=add-ci)
+![CI status](https://github.com/tysky/hexlet-ci-app/actions/workflows/ci.yml/badge.svg?branch=add-ci)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
