@@ -1,0 +1,17 @@
+name: simple-ci
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - name: Setup project
+        run: make setup
+
+      - name: Run tests
+        run: make test
+
+      - name: Run lint
+        run: make lint
